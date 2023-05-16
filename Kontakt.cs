@@ -42,7 +42,7 @@ namespace Z2_Kontakti
         {
             return $"{Ime}, {Prezime}, {GlavniBroj}{IspisiOstaleBrojeve()}";
         }
-        private string IspisiOstaleBrojeve()
+        public string IspisiOstaleBrojeve()
         {
             int i = 0;
             string listaBrojeva = ", [";
