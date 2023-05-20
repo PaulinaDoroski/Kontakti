@@ -69,8 +69,6 @@ namespace Z2_Kontakti
                 sr = new StreamReader("kontaktshare.txt");
                 string str = sr.ReadLine();
 
-                //string[] niz = str.Split(",");
-
             }
             catch (Exception )
             {
